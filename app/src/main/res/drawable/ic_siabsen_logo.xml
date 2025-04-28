@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Background shape -->
+    <path
+        android:fillColor="#0099CC"
+        android:pathData="M50,20 L150,20 C165,20 180,35 180,50 L180,150 C180,165 165,180 150,180 L50,180 C35,180 20,165 20,150 L20,50 C20,35 35,20 50,20 Z" />
+
+    <!-- Book/document shapes -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,50 L120,50 L120,150 L50,150 Z" />
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M120,50 L150,70 L150,170 L120,150 Z" />
+    <path
+        android:fillColor="#CCCCCC"
+        android:pathData="M50,50 L120,50 L150,70 L80,70 Z" />
+
+    <!-- Lines representing text -->
+    <path
+        android:fillColor="#0099CC"
+        android:pathData="M60,80 L110,80 L110,85 L60,85 Z" />
+    <path
+        android:fillColor="#0099CC"
+        android:pathData="M60,95 L110,95 L110,100 L60,100 Z" />
+    <path
+        android:fillColor="#0099CC"
+        android:pathData="M60,110 L110,110 L110,115 L60,115 Z" />
+    <path
+        android:fillColor="#0099CC"
+        android:pathData="M60,125 L90,125 L90,130 L60,130 Z" />
+</vector>
